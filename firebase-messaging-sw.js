@@ -2,8 +2,8 @@
    Handles push notifications while the app is closed or backgrounded.
    Notification text is intentionally generic (never shows message content). */
 
-importScripts('vendor/firebase/firebase-app-compat.js');
-importScripts('vendor/firebase/firebase-messaging-compat.js');
+importScripts('./vendor/firebase/firebase-app-compat.js');
+importScripts('./vendor/firebase/firebase-messaging-compat.js');
 
 firebase.initializeApp({
   apiKey: "AIzaSyCd_vkYV4yrr-kF-MjRaICS8zZ69ujn8_o",
