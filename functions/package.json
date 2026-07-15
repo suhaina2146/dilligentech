@@ -1,0 +1,11 @@
+{
+  "name": "delligen-functions",
+  "description": "Cloud Functions for Delligen Technologies notification relay",
+  "engines": { "node": "20" },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^12.1.0",
+    "firebase-functions": "^5.0.0"
+  },
+  "private": true
+}
